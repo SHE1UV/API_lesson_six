@@ -49,7 +49,8 @@ def upload_to_vk(file_name, vk_group_id, vk_token):
     with open(file_name, "rb") as file:
         files = {'photo': file}
         upload_response = requests.post(upload_url, files=files)
-        upload_response.raise_for_status()
+        
+    upload_response.raise_for_status()
 
     upload_details = check_vk_response(upload_response)
     server = upload_details['server']
