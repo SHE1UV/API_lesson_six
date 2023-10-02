@@ -17,8 +17,8 @@ git clone https://github.com/your-username/comics-publisher.git
 Создайте файл .env в корневой папке проекта и добавьте в него свои данные:
 
 ```
-VK_TOKEN='ВАШ_VK_TOKEN'
-VK_GROUP_ID='ВАШ_VK_GROUP_ID'
+VK_TOKEN=ваш vk токен
+VK_GROUP_ID=id вашей группы в vk
 ```
 
 Убедитесь, что Python3 установлен на вашем компьютере. Если нет, установите его с [официального сайта](https://www.python.org/).
@@ -41,12 +41,6 @@ py main.py
 
 ```
 python main.py
-```
-
-Так же запустить файл `main.py` в своей среде разработки или терминале можно по команде:
-
-```
-bash
 ```
 
 ### Цель проекта
